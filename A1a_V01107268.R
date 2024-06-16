@@ -17,7 +17,7 @@ lapply(libraries, install_and_load)
 # Reading the file into R
 data <- read.csv("NSSO68.csv")
 
-# Filtering for AP
+# Filtering for Bhr
 df <- data %>%
   filter(state == "10")
 
